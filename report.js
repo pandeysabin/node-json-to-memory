@@ -17,17 +17,14 @@ const fetchDataFromUrl = () => {
           const productsData = JSON.parse(data);
           productsData.forEach(async productDetails => {
             await insertProductData(productDetails.petroleum_product);
-            console.log("2");
             const productId = await getProductIdByName(
               productDetails.petroleum_product
             );
-            console.log("3");
             await insertProducts(
               productDetails.year,
               productId,
               productDetails.sale
             );
-            console.log("4");
           });
           resolve(true);
         });
