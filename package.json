@@ -1,0 +1,23 @@
+{
+  "name": "yipl-intern-petroleum-report",
+  "version": "1.0.0",
+  "description": "tabular report of pertoleum products",
+  "main": "report.js",
+  "scripts": {
+    "test": "node report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://YednapNibas@bitbucket.org/YednapNibas/yipl-intern-petroleum-report.git"
+  },
+  "keywords": [
+    "report"
+  ],
+  "author": "Sabin Pandey",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/YednapNibas/yipl-intern-petroleum-report#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {}
+}
